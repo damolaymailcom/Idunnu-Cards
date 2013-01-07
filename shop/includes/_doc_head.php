@@ -70,6 +70,9 @@
   
   <div id="TopSections">
   
+	
+    
+  
   	<div id="top-bar">        
     	<div class="row">
         	<section>
@@ -87,6 +90,7 @@
     </div>
     
     
+    
     <div id="navbar">
   	<div class="row">
     	<section>
@@ -96,7 +100,7 @@
                     <li><a href="#exploresection"><span class="foundicon-search"></span>explore</a></li>
                     <li><a href="#shopsection"><span class="foundicon-cart"></span>shop</a></li>
                 </ul>
-     <!--<ul style="list-style:none;" class="logo"><li><a href="#"><img src="images/newlogo.png"/></a></li></ul>-->
+     <!--<ul style="list-style:none;" class="logo"><li><a href="#"><img src="../../images/newlogo.png"/></a></li></ul>-->
                 <ul id="nav" class="nav-bar right">
                 	<li><a href="#"><span class="foundicon-idea"></span>create</a></li>
                     <li><a href="#aboutsection"><span class="foundicon-people"></span>about</a></li>
@@ -106,10 +110,28 @@
         </section>
     </div>
   </div>
-  <ul class="logo"><li><a href="#"><img src="../../images/newlogo.png"/></a></li></ul>
-  <div class="shopnavi"></div>
-    
+  
+  <div  class="logo"><ul><li><a href="#"><img src="../../images/newlogo.png"/></a></li></ul></div>
+  
+  <div id="shopnavi">
+  	<div class="row">
+    	<div class="three columns"><h2>shop</h2></div>
+        	<div class="nine columns">
+            	<ul class="nav-bar">
+                	<li><a href="#">ecards</a></li>
+                    <li><a href="#">cards</a></li>
+                    <li><a href="#">invitations</a></li>
+                    <li><a href="#">postcards</a></li>
+                </ul>
+            </div>
+    </div>
+  </div>
+  
+
+	
   </div>
   
   
   <!-- END TOP SECTIONS -->
+  
+  <div class="adire"></div>

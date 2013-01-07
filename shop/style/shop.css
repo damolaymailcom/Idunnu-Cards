@@ -3,8 +3,26 @@
 
 /* SUB NAVI SECTION INCLUDED INTO TOP SECTIONS HEADER */
 
-.shopnavi {
-	height:50px; background:#241714; width:100%;
+#shopnavi {
+	height:50px; background:#241714; width:100%; margin:0; margin-top:-20px; padding:0;
+}
+
+
+
+#shopnavi .nav-bar > ul {  margin-left: 0; padding:0; margin:0; margin-top:-15px;  }
+#shopnavi .nav-bar > li { float: left; display: block; position: relative; margin-top:-15px; font-family:'Poiret One', cursive, verdana; font-size:14px; text-transform:capitalize; color:#c96823; padding:0 20px 0 20px; background:none; box-shadow:none; border: none; font-weight:bold; }
+#shopnavi .nav-bar > li:first-child { border:0;  }
+#shopnavi .nav-bar > li:last-child { margin-right:0;}
+#shopnavi .nav-bar > li.active > a { color: white; cursor: default; margin:0;  }
+#shopnavi .nav-bar > li.active:hover { cursor: default; }
+#shopnavi .nav-bar > li > a { color: #c96823; font-size:14px; display:block; padding:0px; font-weight:bold; margin:0;  }
+#shopnavi .nav-bar > li > a:hover { color:#fa5d19; }
+
+
+
+#shopnavi h2 {
+	font-family:'museo sans regular', verdana; color:#f59c7d; font-size:30px; margin-top:-20px; margin-left:30px; 
+	text-transform:capitalize; font-weight:bold;
 }
 
 
@@ -16,5 +34,5 @@
 /* divider */
 
 .adire {
-	height:50px; background:url(../../images/section-divider.jpg) top left repeat #495f46;
+	height:50px; background:url(../../images/section-divider.jpg) top left repeat #495f46; padding-top:240px;
 }
