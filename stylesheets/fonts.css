@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@font-face {
+    font-family: 'museo sans regular';
+    src: url('webfonts/museosans 500/MuseoSans_500-webfont.eot');
+    src: url('webfonts/museosans 500/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/museosans 500/MuseoSans_500-webfont.woff') format('woff'),
+         url('webfonts/museosans 500/MuseoSans_500-webfont.ttf') format('truetype'),
+         url('webfonts/museosans 500/MuseoSans_500-webfont.svg#museo_sans_500regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

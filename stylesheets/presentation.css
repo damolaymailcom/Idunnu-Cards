@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#TopSections {
+	
+	position:fixed; width:100%;  z-index:11000; overflow:hidden;
+	
+	
+}
+
+
+#top-bar {
+	 background:url(../images/footer.jpg) top left repeat;
+	 text-transform: uppercase;
+	 font-family:'Archivo Narrow', sans-serif;
+	 width:100%; height:65px; padding-top:5px;
+}
+
+#navbar {
+	width:100%; height:85px; padding:0; margin:0;
+	background:url(../images/Section-bg.jpg) top left repeat #640101;
+	box-shadow:inset 0px 0px 60px #300602, 0px 6px 10px #000; 
+	-webkit-box-shadow:inset 0px 0px 60px #300602, 0px 6px 10px #000;
+	-moz-box-shadow:inset 0px 0px 60px #300602, 0px 6px 10px #000;
+	border-top: 1px solid #5f0901; 
+}
+#navbar section { margin:0; padding:0; }
+
+
+.logo img {
+	position:absolute;
+	z-index:5000;
+	margin-top:-175px;
+	
+}
+
+.logo li {
+	list-style:none; margin:0; padding:0;
+}
+
+.logo  li  a {
+	font-family:'Bitter',cursive; color:white; text-decoration:none; text-transform:capitalize; color:#c9b849;
+	font-weight:bold; display:block;
+}
+
+
+
+
+
+#navbar .nav-bar > ul { height: 85px;  margin-left: 0; margin-top:0px; padding: 0;  }
+#navbar .nav-bar > li { float: left; display: block; position: relative; margin:0; font-family:'Poiret One',cursive; width:120px; 
+display:block; font-size:24px; height:85px; text-transform:uppercase; color:#e7ead7; padding:0px; background:none; box-shadow:none; border: none; }
+#navbar .nav-bar > li:first-child {  }
+#navbar .nav-bar > li:last-child { margin-right:0;}
+#navbar .nav-bar > li.active > a { color: white; cursor: default; margin:0;  }
+#navbar .nav-bar > li.active:hover { cursor: default; }
+#navbar .nav-bar > li > a { color: #e7ead7; font-size:24px; display:block; padding:10px 25px; width:120px; height:85px; min-height:85px; font-weight:bold; margin:0;  }
+#navbar .nav-bar > li > a:hover { color:#fa5d19; font-weight:bold; box-shadow:inset 0px 10px 60px #300602; background:#6f0b00; }
+/*#navbar .nav-bar > li:hover { box-shadow:inset 0px 0px 60px #300602; }*/
+#navbar .nav-bar > li ul { margin-bottom: 0; }
+
+
+
+.sprite {
+	background:url(../images/navsprite.png) top left no-repeat; height:85px;
+}
+
+#navbar .nav-bar span {
+	margin:0 auto; text-align:center; position:absolute; 
+	text-shadow:2px 2px 2px #000; margin:0 -50px 0px 20px; padding-top:30px; display:block; 
+}
+
+#navbar .nav-bar span:hover {
+	margin:-5px auto; text-align:center; position:absolute; color:#be3100; display:block; 
+	text-shadow:2px 2px 4px #6f0b00; margin:0 -50px 0px 20px; padding-top:30px; cursor:pointer;
+}
+
+
+	
+
+	
+
+
+
+
+
+
+/*///////////////////////// BODY SECTIONS */
+
+
+
+/* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
+   ================================================== */
+#featured { 
+	width: 100%;
+	height: 450px;
+	background: transparent url('orbit/loading.gif') no-repeat center center;
+	overflow: hidden; }
+#featured>img,  
+#featured>div,
+#featured>a { display: none; }
+
+
+
+
+.maincontents {
+	padding-top:125px; position:relative;
+}
+.reel {
+	width:100%; height:450px; background:url(../images/reelbg.jpg) top left repeat;
+}
+
+h1.ribbon {
+	max-width:478px; height:78px; margin:0 auto; padding-top:10px; max-height:78px; text-align:center;
+	background:url(../images/about-ribbon.png) no-repeat; color:#fbf9ed; text-shadow:1px 1px 1px #600;
+	font-family:'Poiret One',cursive; font-size:32px; text-transform:capitalize;
+	margin-top:-50px;
+}
+
+.about-container {
+	padding:20px 30px 150px 20px; background:url(../images/about-art.png) bottom right no-repeat; 
+	text-transform:capitalize;
+}
+
+.about-container h1 {
+	font-family:'Poiret One',cursive; font-size:48px; color:#be3100; 
+}
+
+.about-container p {
+	font-family:'museo sans regular'; font-size:14px; color:#6f0b00;
+	padding-right:40%;
+}
+
+
+.chopping-board {
+	width:100%; height:2000px; 
+	padding:50px 0 120px 0; position:relative;
+	background: url(../images/matte.jpg) repeat #be3100;
+	box-shadow:inset 0 0 200px #521102; -webkit-box-shadow:inset 0 0 200px #521102; -moz-box-shadow:inset 0 0 200px #521102;
+	border-top:1px solid #F30;
+	
+}
+
+.showcase {
+	margin-top:0px;
+}
+
+.showcase h2 {
+	font-size:36px; color:#c9b849;
+	text-shadow:1px 1px 1px #000;
+	padding:20px; border:0px dashed #F90;
+	font-family:'Poiret One',cursive;
+	text-transform:uppercase; text-align:center;
+}
+
+
+.explorer {
+	margin-top:0px;
+	padding-top:50px;
+}
+
+.explorer h1 {
+	font-size:36px; color:#c9b849;
+	text-shadow:1px 1px 1px #000;
+	padding:20px; border:0px dashed #F90;
+	font-family:'Poiret One',cursive;
+	text-transform:capitalize; text-align:center;
+	margin:0;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+#BottomSections {
+	
+	width:100%; background:url(../images/top_bar.png) top left repeat;
+}
+
+
+#bottom-bar {
+	 
+	 text-transform: uppercase;
+	 font-family:'Archivo Narrow', sans-serif;
+	 width:100%; height:130px;
+}
+
+
+
+
+#linksbar {
+	width:100%; height:85px;
+	background:url(../images/Section-bg.jpg) top left repeat-x;
+	box-shadow:inset 0px 0px 60px #300602, 0px 6px 40px #000; 
+	-webkit-box-shadow:inset 0px 0px 60px #300602, 0px 6px 40px #000;
+	-moz-box-shadow:inset 0px 0px 60px #300602, 0px 6px 40px #000;
+	border-bottom: 1px solid #5f0901;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECTION PLACEHODLERS */
+.aboutsections {
+	margin-bottom:125px; clear:left; height:75px;
+}
+
+
+.shopsections {
+	margin-bottom:50px; height:75px;
+}
+
+
+.exploresections {
+	margin-bottom:50px;  height:75px;
+}
