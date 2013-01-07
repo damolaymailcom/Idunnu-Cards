@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* SUB NAVI SECTION INCLUDED INTO TOP SECTIONS HEADER */
+
+.shopnavi {
+	height:50px; background:#241714; width:100%;
+}
+
+
+
+
+
+
+
+/* divider */
+
+.adire {
+	height:50px; background:url(../../images/section-divider.jpg) top left repeat #495f46;
+}
