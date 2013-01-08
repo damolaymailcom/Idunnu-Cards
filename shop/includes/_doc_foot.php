@@ -11,22 +11,22 @@
   -->
   
 
-
+<script src="../javascripts/jquery.foundation.navigation.js"></script>
 
   
   <!-- Showcase -->
-  <script type="text/javascript" src="../../includes/apps/showcase/js/slider.js"></script>
+  <!--<script type="text/javascript" src="../../includes/apps/showcase/js/slider.js"></script>
 		<script type="text/javascript">
 			$(function() {
 
 				Slider.init();
 			
 			});
-		</script>
+		</script>-->
   
   
   <!-- Explore -->
-  <script type="text/javascript" src="../../includes/js/jquery.stackslider.js"></script>
+  <!--  <script type="text/javascript" src="../../includes/js/jquery.stackslider.js"></script>
 		<script type="text/javascript">
 			
 			$( function() {
@@ -35,21 +35,21 @@
 
 			});
 
-		</script>
+ </script>-->
         
         
   <!--<script src="javascripts/foundation.min.js"></script>-->
   
    <!-- Initialize JS Plugins --> 
-  <script src="../../includes/javascripts/app.js"></script>
-  <script src="../../includes/javascripts/jquery.foundation.orbit.js"></script>
+  <script src="../includes/javascripts/app.js"></script>
+ <!-- <script src="../../includes/javascripts/jquery.foundation.orbit.js"></script>
 
   
     <script>
     $(window).load(function(){
       $("#featured").orbit();
     });
-    </script> 
+    </script> -->
   
 </body>
 </html>

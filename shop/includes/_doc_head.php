@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="style/shop.css">
   <link rel="stylesheet" href="../stylesheets/fonts.css">
   
+  <link rel="stylesheet" href="style/stapel.css">
+  
  
   
   
@@ -39,6 +41,7 @@
 
   <script src="../javascripts/modernizr.foundation.js"></script>
   <!--[if lte IE 7]><style>.support-note .note-ie{display:block;}</style><![endif]-->
+  
   
   
   <!-- Included JS Files (Compressed) -->
