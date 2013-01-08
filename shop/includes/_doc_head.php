@@ -13,18 +13,17 @@
   
   <!-- Included CSS Files (Uncompressed) -->
   
-  <link rel="stylesheet" href="../../stylesheets/foundation.css">
-  <link rel="stylesheet" href="../../stylesheets/presentation.css">
-  <link rel="stylesheet" href="../style/shop.css">
-  <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../stylesheets/fonts.css">
+  <link rel="stylesheet" href="../stylesheets/foundation.css">
+  <link rel="stylesheet" href="../stylesheets/presentation.css">
+  <link rel="stylesheet" href="style/shop.css">
+  <link rel="stylesheet" href="../stylesheets/fonts.css">
   
-  <link rel="stylesheet" type="text/css" href="../../showcase/css/style.css" />
+ 
   
   
   <!-- Included CSS Files (Compressed) -->
   <!--<link rel="stylesheet" href="stylesheets/foundation.min.css">-->
-  <link rel="stylesheet" href="../../stylesheets/app.css">
+  <link rel="stylesheet" href="../stylesheets/app.css">
   
   <!-- Typography -->
   <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
@@ -35,19 +34,19 @@
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
   <!-- Icons -->
-  <link rel="stylesheet" href="../../stylesheets/general_enclosed_foundicons.css">
-  <link rel="stylesheet" href="../../stylesheets/fc-webicons.css">
+  <link rel="stylesheet" href="../stylesheets/general_enclosed_foundicons.css">
+  <link rel="stylesheet" href="../stylesheets/fc-webicons.css">
 
-  <script src="../../javascripts/modernizr.foundation.js"></script>
+  <script src="../javascripts/modernizr.foundation.js"></script>
   <!--[if lte IE 7]><style>.support-note .note-ie{display:block;}</style><![endif]-->
   
   
   <!-- Included JS Files (Compressed) -->
-  <script src="../../javascripts/jquery.js"></script>
+  <script src="../javascripts/jquery.js"></script>
   
   <!-- Scroll to Navigation -->
-  <script src="../../javascripts/jquery.scrollTo-1.4.3.1-min.js"></script>
-  <script src="../../javascripts/jquery.localscroll.js"></script>
+  <script src="../javascripts/jquery.scrollTo-1.4.3.1-min.js"></script>
+  <script src="../javascripts/jquery.localscroll.js"></script>
   <script type="text/javascript">
 		$(document).ready(function() {
    			$('#pagelinks').localScroll({duration:800});
@@ -93,25 +92,33 @@
     
     <div id="navbar">
   	<div class="row">
-    	<section>
+    	<div class="five columns">
         	<nav>
             	<ul id="pagelinks" class="nav-bar left">
                 	<li><a href="#"><span class="foundicon-home"></span>home</a></li>
                     <li><a href="#exploresection"><span class="foundicon-search"></span>explore</a></li>
                     <li><a href="#shopsection"><span class="foundicon-cart"></span>shop</a></li>
                 </ul>
-     <!--<ul style="list-style:none;" class="logo"><li><a href="#"><img src="../../images/newlogo.png"/></a></li></ul>-->
+            </nav>
+         </div>
+     	<div class="two columns">
+        	<figure class="logo">
+            	<a href="#"><img src="../images/newlogo.png"></a>
+            </figure>
+        </div>
+        <div class="five columns">
+        	<nav>
                 <ul id="nav" class="nav-bar right">
                 	<li><a href="#"><span class="foundicon-idea"></span>create</a></li>
                     <li><a href="#aboutsection"><span class="foundicon-people"></span>about</a></li>
                     <li><a href="#"><span class="foundicon-mic"></span>press</a></li>
                 </ul>
             </nav>
-        </section>
+        </div>
     </div>
   </div>
   
-  <div  class="logo"><ul><li><a href="#"><img src="../../images/newlogo.png"/></a></li></ul></div>
+ 
   
   <div id="shopnavi">
   	<div class="row">
@@ -134,4 +141,3 @@
   
   <!-- END TOP SECTIONS -->
   
-  <div class="adire"></div>
