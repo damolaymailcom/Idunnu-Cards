@@ -50,31 +50,31 @@ $sitetitle = "Shop | Idunnu Cards";
 
 						<!-- Celebration Cards -->
 						<li data-pile="Celebration">
-							<a href="http://drbl.in/eiUm">
+							<a href="#">
 								<span class="tp-info"><span>On to Easter</span></span>
 								<img src="cards/celebrations/t1.png" />
 							</a>
 						</li>
 						<li data-pile="Celebration">
-							<a href="http://drbl.in/ekMY">
+							<a href="#">
 								<span class="tp-info"><span>Love Birds</span></span>
 								<img src="cards/celebrations/t2.png" />
 							</a>
 						</li>
 						<li data-pile="Celebration">
-							<a href="http://drbl.in/esQV">
+							<a href="#">
 								<span class="tp-info"><span>Here Fishy fishy</span></span>
 								<img src="cards/celebrations/t3.png" />
 							</a>
 						</li>
                         <li data-pile="Celebration">
-							<a href="http://drbl.in/esQV">
+							<a href="#">
 								<span class="tp-info"><span>Here Fishy fishy</span></span>
 								<img src="cards/celebrations/t4.png" />
 							</a>
 						</li>
                         <li data-pile="Celebration">
-							<a href="http://drbl.in/esQV">
+							<a href="#">
 								<span class="tp-info"><span>Here Fishy fishy</span></span>
 								<img src="cards/celebrations/t5.png" />
 							</a>
@@ -86,7 +86,7 @@ $sitetitle = "Shop | Idunnu Cards";
 							</a>
 						</li>
                         <li data-pile="Celebration">
-							<a href="http://drbl.in/esQV">
+							<a href="#">
 								<span class="tp-info"><span>Here Fishy fishy</span></span>
 								<img src="cards/celebrations/t7.png" />
 							</a>
@@ -98,31 +98,49 @@ $sitetitle = "Shop | Idunnu Cards";
 							</a>
 						</li>
                         <li data-pile="Celebration">
-							<a href="http://drbl.in/esQV">
+							<a href="#">
 								<span class="tp-info"><span>Here Fishy fishy</span></span>
 								<img src="cards/celebrations/t9.png" />
 							</a>
 						</li>
 
-						<!-- Griffin Moore -->
-						<li data-pile="Griffin Moore">
-							<a href="http://drbl.in/fzUB">
-								<span class="tp-info"><span>Briefcase</span></span>
-								<img src="images/3/1.jpg" />
+						<!-- Love & Romance -->
+						<li data-pile="Love">
+							<a href="#">
+								<span class="tp-info"><span>Blowing Kisses</span></span>
+								<img src="cards/love/t1.png" />
 							</a>
 						</li>
-						<li data-pile="Griffin Moore">
-							<a href="http://drbl.in/fQEv">
-								<span class="tp-info"><span>Clipboard</span></span>
-								<img src="images/3/2.jpg" />
+                        
+                        <li data-pile="Love">
+							<a href="#">
+								<span class="tp-info"><span>Loving You</span></span>
+								<img src="cards/love/t2.png" />
 							</a>
 						</li>
-						<li data-pile="Griffin Moore">
-							<a href="http://drbl.in/fREU">
-								<span class="tp-info"><span>Sweet pack</span></span>
-								<img src="images/3/3.jpg" />
+                        
+                        <li data-pile="Love">
+							<a href="#">
+								<span class="tp-info"><span>Eku Ife</span></span>
+								<img src="cards/love/t3.png" />
 							</a>
 						</li>
+                        
+                        <li data-pile="Love">
+							<a href="#">
+								<span class="tp-info"><span>I Love You</span></span>
+								<img src="cards/love/t4.png" />
+							</a>
+						</li>
+                        
+                        <li data-pile="Love">
+							<a href="#">
+								<span class="tp-info"><span>My heart</span></span>
+								<img src="cards/love/t5.png" />
+							</a>
+						</li>
+						
+						
 
 						<!-- Andrea Austoni -->
 						<li data-pile="Andrea Austoni">

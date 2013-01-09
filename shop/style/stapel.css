@@ -4,13 +4,21 @@
 	padding: 0 0px 50px 50px;
 	margin:0;
 	background:url(../../images/woodboard.jpg) repeat #702005;
+	box-shadow:inset 18px 23px 39px #2d0b01; 
+}
+
+
+.wrapper h1 {
+	padding-top:5px; font-family:'Poiret One', cursive;
+	font-weight:500; color:#fff; font-size:26px;
+	 text-transform:none;
 }
 
 .topbar {
 	position: relative;
 	padding: 20px 0;
 	margin: 0 0 40px;
-	box-shadow: 0 1px 0 #aaa, 0 -1px 0 #aaa;
+	/*box-shadow: 0 1px 0 #aaa, 0 -1px 0 #aaa;*/
 }
 
 .back {
@@ -23,9 +31,9 @@
 	border-radius: 50%;
 	text-align: center;
 	line-height: 38px;
-	color: #999;
-	background: #ddd;
-	background: rgba(255,255,255,0.5);
+	color: #241714;
+	background: #c9b849;
+	background: rgba(201,184,73,0.5);
 	cursor: pointer;
 	display: none;
 	-webkit-touch-callout: none;
@@ -47,18 +55,27 @@
 	font-weight: 300;
 	font-size: 40px;
 	width: 49%;
-	min-width: 320px;
+	/*min-width: 320px;*/
+	color:white;
 }
+
+.topbar h1 {
+	padding-top:5px; font-family:'Poiret One', cursive; width:49%; 
+	font-weight:500; color:white; font-size:26px; display:inline-block;
+	 text-transform:none;
+}
+
+
 
 .topbar h2 {
 	padding-right: 20px;
-	color: #666;
+	
 }
 
 .topbar h3 {
 	text-align: right;
 	padding-left: 20px;
-	color: #aaa;
+	color: #fff;
 }
 
 /* Loader */
@@ -210,7 +227,7 @@
 	position: absolute;
 	cursor: pointer;
 	border: 10px solid #fff;
-	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.7);
 	display: none;
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
@@ -242,7 +259,7 @@
 	line-height: 20px;
 	color: #333;
 	top: 40%;
-	width: 75%;
+	width: 85%;
 	padding: 10px;
 	font-weight: 700;
 	text-align: right;
@@ -283,9 +300,9 @@
 }
 
 .tp-title span:nth-child(2){
-	color: #aaa;
+	color: #fc0;
 	padding: 0 5px;
-	background: #F7F7F7;
+	background: #000;
 	right: 0px;
 	height: 100%;
 	line-height: 40px;
